@@ -611,6 +611,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = exactVersion;
+				version = "7.0.0-rc1";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8411CFD8268D734D00617B41 /* PMKStoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PMKStoreKit;
+		};
+		8411CFDA268D734D00617B41 /* PMKFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PMKFoundation;
+		};
+		8411CFDC268D734D00617B41 /* PMKPhotos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PMKPhotos;
+		};
+		8411CFDE268D734D00617B41 /* PMKHomeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PMKHomeKit;
+		};
+		8411CFE0268D734D00617B41 /* PMKMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PMKMapKit;
+		};
+		8411CFE2268D734D00617B41 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		8411CFE4268D734D00617B41 /* PMKHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PMKHealthKit;
+		};
+		8411CFE6268D734D00617B41 /* PMKCloudKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PMKCloudKit;
+		};
+		8411CFE8268D734D00617B41 /* PMKCoreLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8411CFD7268D734D00617B41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PMKCoreLocation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8411CF7C268D5EBB00617B41 /* Project object */;
 }

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PromiseKit",
+        "repositoryURL": "https://github.com/mxcl/PromiseKit",
+        "state": {
+          "branch": null,
+          "revision": "9a5a710ca6b3d2915a2e759ad14c8e407c03ac9e",
+          "version": "7.0.0-rc1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
