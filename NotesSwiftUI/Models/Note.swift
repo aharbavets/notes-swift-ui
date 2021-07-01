@@ -1,6 +1,6 @@
 import Foundation
 
-struct Note: Hashable, Codable {
+struct Note: Hashable, Codable, Identifiable {
     
     var id: Int
     
